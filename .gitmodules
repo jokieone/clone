@@ -1,3 +1,6 @@
 [submodule "js/vendor/require-handlebars-plugin"]
 	path = js/vendor/require-handlebars-plugin
 	url = https://github.com/SlexAxton/require-handlebars-plugin.git
+[submodule "euphony"]
+	path = euphony
+	url = https://github.com/qiao/euphony.git
