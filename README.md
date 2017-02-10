@@ -104,3 +104,15 @@ minimoog.js was written in Javascript using the [WebAudio](http://webaudio.githu
 * v. 1.0: First public release - 5/18/2015
 * v 1.1: Naming and sharing of user patches - 5/21/2015
 * v 1.2: MIDI CC mapping - 5/31/2015
+
+# Install
+`npm install`
+
+Make sure you have Ruby and SASS installed:
+`gem install sass`
+
+# Run
+`http-server`
+
+# Build
+`grunt`

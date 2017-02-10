@@ -149,7 +149,7 @@ module.exports = function(grunt) {
                 dest: 'css/style.min.css'
             }
         },
-        
+
         cssmin: {
             target: {
                 files: {
@@ -190,7 +190,6 @@ module.exports = function(grunt) {
         },
 
         watch: {
-
             // When the files change compile the sass and reload the browser.
             rebuild: {
                 files: ['templates/**/*.hbs', 'js/**/*.js', 'css/**/*.scss'],
@@ -203,6 +202,16 @@ module.exports = function(grunt) {
                 files: ['css/**/*.scss', 'style_guide/**/*.hbs', 'style_guide/**/*.css'],
                 tasks: ['sass:dev', 'handlebars:guide']
             }
+        },
+
+        connect: {
+          server: {
+            options: {
+              port: 8888,
+              base: './'
+            }
+          },
+          keepalive: true
         },
 
         defaultTask: function() {
@@ -234,7 +243,7 @@ module.exports = function(grunt) {
 
     // Tasks run on the build server for integration and production.
     grunt.registerTask('build', ['clean:prod', 'compile-handlebars:prod', 'copy:prod', 'concurrent:prod']);
-    
+
     grunt.registerTask('build:styles', ['sass:prod', 'autoprefixer:prod', 'cssmin']);
 
     // Tasks to run in local development environment.
@@ -243,4 +252,6 @@ module.exports = function(grunt) {
     grunt.registerTask('guide', ['sass:dev', 'handlebars:guide', 'connect']);
 
     grunt.registerTask('default', 'The default task', grunt.config.get('defaultTask'));
+
+    grunt.registerTask('run', ['connect:server','watch']);
 };

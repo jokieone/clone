@@ -671,22 +671,18 @@ h4 {
 
 .module-container {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: column wrap;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
 }
 
 .control {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
 }
 
 .module-row {
@@ -758,16 +754,13 @@ h4 {
   height: 88%;
   margin: 2px 0px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
@@ -775,7 +768,6 @@ h4 {
 .module__control-group, .module__control-group--left-corner, .module__control-group--right-corner, .module__switch-control-group {
   height: 88%;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
 }
@@ -796,7 +788,6 @@ h4 {
 
 .module__switch-control-group {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 10%;
       -ms-flex: 0 1 10%;
           flex: 0 1 10%;
   margin-top: 3px;
@@ -826,12 +817,10 @@ h4 {
   width: 95%;
   margin: auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .fader__scale--light {
@@ -873,9 +862,8 @@ h4 {
   height: 89%;
   margin: 10% auto 0 auto;
   border-radius: 8px;
-  -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   position: relative;
 }
 
@@ -892,12 +880,10 @@ h4 {
   width: 44px;
   height: 22px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-self: flex-start;
-      -ms-flex-item-align: start;
-          align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   box-shadow: 1px 1px 2px black;
 }
 .fader__knob:hover {
@@ -920,9 +906,8 @@ hr {
   height: 35px;
   width: 55px;
   margin: 10px 3px 3px 3px;
-  -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   border-radius: 2px;
   opacity: .8;
 }
@@ -937,8 +922,8 @@ hr {
 }
 
 .button--orange {
-  background: -webkit-linear-gradient(90deg, #ff7f00, #FF9933);
-  background: linear-gradient(0deg, #ff7f00, #FF9933);
+  background: -webkit-linear-gradient(90deg, #ff8000, #FF9933);
+  background: linear-gradient(0deg, #ff8000, #FF9933);
 }
 
 .button--yellow {
@@ -968,11 +953,9 @@ hr {
 
 .button-container, .knob-container--range, .knob-container--vcf, .knob-container--pwm, .knob-container--vca {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   height: 75%;
@@ -1014,12 +997,10 @@ hr {
   position: relative;
   margin-top: 60px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: column wrap;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
   height: 110px;
 }
 .knob-container--range .switch {

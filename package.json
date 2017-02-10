@@ -1,7 +1,7 @@
 {
-  "name": "juno106",
+  "name": "minimoog.js",
   "version": "0.1.0",
-  "description": "Juno 106",
+  "description": "Minimoog Model D",
   "main": "index.html",
   "devDependencies": {
     "babel-eslint": "^4.0.5",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevengoldberg/juno106.git"
+    "url": "https://github.com/kevinchau321/minimoog.js.git"
   },
-  "author": "steve goldberg"
+  "author": "kevinchau321"
 }
