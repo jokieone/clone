@@ -1,6 +1,6 @@
-# 106.js
+# minimoog.js
 
-106.js is an emulation of the classic [Roland Juno-106 analog synthesizer](http://en.wikipedia.org/wiki/Roland_Juno-106).
+minimoog.js is an emulation of the classic [Moog Minimoog Model D analog synthesizer](https://en.wikipedia.org/wiki/Minimoog).
 
 [You can play 106.js here](http://resistorsings.com/106).
 
@@ -10,13 +10,13 @@ Minimum window size of 1024x768. Please use an updated version of [Google Chrome
 
 # How to play
 
-106.js is best played with a MIDI keyboard. See [the next section](README.md#midi) for MIDI setup instructions. Notes can also be played with a computer keyboard, or by clicking the keys with a mouse. Like the original hardware synthesizer, the 106.js can play up to 6 notes at a time.
+minimoog.js is best played with a MIDI keyboard. See [the next section](README.md#midi) for MIDI setup instructions. Notes can also be played with a computer keyboard, or by clicking the keys with a mouse. Like the original hardware synthesizer, the 106.js can play up to 6 notes at a time.
 
-Please note that due to a phenomenon known as [keyboard ghosting](http://www.microsoft.com/appliedsciences/antighostingexplained.mspx), certain simultaneous combnations of more than 2 keys will not register when held on the computer keyboard. This is a limitation of computer keyboard hardware, and not with 106.js.
+Please note that due to a phenomenon known as [keyboard ghosting](http://www.microsoft.com/appliedsciences/antighostingexplained.mspx), certain simultaneous combnations of more than 2 keys will not register when held on the computer keyboard. This is a limitation of computer keyboard hardware, and not with minimoog.js.
 
 Also note that in addition to the labeled keyboard assignments, the key mappings extend to cover the entire top and bottom row of the `QWERTY` keyboard, in order to allow for a variety of playing positions.
 
-Click `Reset` at the top of the screen at any time to return the 106.js to its initial state.
+Click `Reset` at the top of the screen at any time to return the minimoog.js to its initial state.
 
 When you've found a sound that you like, click on the `PATCH NAME` text at the top of the screen to edit the name of your patch. Then click `SHARE` and click the icon to copy a special URL to your clipboard. Anyone who loads that URL will load your patch.
 
@@ -24,7 +24,7 @@ When you've found a sound that you like, click on the `PATCH NAME` text at the t
 
 For MIDI connectivity, you must use **Chrome 43** or newer.
 
-Every control on the 106.js is mappable to respond to MIDI CC messages, and your MIDI mappings will be remembered when you leave the page. This means that once you've mapped the on-screen controls to your hardware controller, you can play 106.js without touching the mouse and keyboard. If you have multiple MIDI inputs, 106.js will remember all of your mappings separately. 106.js supports both 7-bit and 14-bit MIDI messages. Simply right-click a control to begin mapping.
+Every control on the minimoog.js is mappable to respond to MIDI CC messages, and your MIDI mappings will be remembered when you leave the page. This means that once you've mapped the on-screen controls to your hardware controller, you can play minimoog.js without touching the mouse and keyboard. If you have multiple MIDI inputs, 106.js will remember all of your mappings separately. minimoog.js supports both 7-bit and 14-bit MIDI messages. Simply right-click a control to begin mapping.
 
 Note that if you're mapping a button or switch on your controller that only sends one message at a time, you'll have to press it a few times in order for the mapping to be assigned.
 
@@ -91,16 +91,12 @@ For more detailed instructions, consult the [Juno 106 owner's manual](http://www
 
 # Technology
 
-Juno-106.js was written in Javascript using the [WebAudio](http://webaudio.github.io/web-audio-api/) and [Web MIDI](http://www.w3.org/TR/webmidi/) APIs as well as [Backbone.Marionette](marionettejs.com). It also uses some effects from [tuna.js](https://github.com/Dinahmoe/tuna) by Dinahmoe.
+minimoog.js was written in Javascript using the [WebAudio](http://webaudio.github.io/web-audio-api/) and [Web MIDI](http://www.w3.org/TR/webmidi/) APIs as well as [Backbone.Marionette](marionettejs.com). It also uses some effects from [tuna.js](https://github.com/Dinahmoe/tuna) by Dinahmoe.
 
 # TO-DO
 
-* Touch events
-* Tweak chorus
-* Alternate PWM Implementation
-* Filter self-resonance
-* Portamento
-* Bender
+* Knobs instead of sliders
+* 3d model
 
 # Changelog
 
