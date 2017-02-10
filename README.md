@@ -2,7 +2,7 @@
 
 minimoog.js is an emulation of the classic [Moog Minimoog Model D analog synthesizer](https://en.wikipedia.org/wiki/Minimoog).
 
-[You can play 106.js here](http://resistorsings.com/106).
+[You can play minimoog.js here](http://bit.ly/2kslx3i).
 
 # System Requirements
 
