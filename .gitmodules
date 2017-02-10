@@ -4,3 +4,6 @@
 [submodule "euphony"]
 	path = euphony
 	url = https://github.com/qiao/euphony.git
+[submodule "midi-synth"]
+	path = midi-synth
+	url = https://github.com/cwilso/midi-synth.git
