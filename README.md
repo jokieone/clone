@@ -10,7 +10,7 @@ Minimum window size of 1024x768. Please use an updated version of [Google Chrome
 
 # How to play
 
-minimoog.js is best played with a MIDI keyboard. See [the next section](README.md#midi) for MIDI setup instructions. Notes can also be played with a computer keyboard, or by clicking the keys with a mouse. Like the original hardware synthesizer, the 106.js can play up to 6 notes at a time.
+minimoog.js is best played with a MIDI keyboard. See [the next section](README.md#midi) for MIDI setup instructions. Notes can also be played with a computer keyboard, or by clicking the keys with a mouse. Like the original hardware synthesizer, the minimoog.js can play up to 6 notes at a time.
 
 Please note that due to a phenomenon known as [keyboard ghosting](http://www.microsoft.com/appliedsciences/antighostingexplained.mspx), certain simultaneous combnations of more than 2 keys will not register when held on the computer keyboard. This is a limitation of computer keyboard hardware, and not with minimoog.js.
 
@@ -24,29 +24,29 @@ When you've found a sound that you like, click on the `PATCH NAME` text at the t
 
 For MIDI connectivity, you must use **Chrome 43** or newer.
 
-Every control on the minimoog.js is mappable to respond to MIDI CC messages, and your MIDI mappings will be remembered when you leave the page. This means that once you've mapped the on-screen controls to your hardware controller, you can play minimoog.js without touching the mouse and keyboard. If you have multiple MIDI inputs, 106.js will remember all of your mappings separately. minimoog.js supports both 7-bit and 14-bit MIDI messages. Simply right-click a control to begin mapping.
+Every control on the minimoog.js is mappable to respond to MIDI CC messages, and your MIDI mappings will be remembered when you leave the page. This means that once you've mapped the on-screen controls to your hardware controller, you can play minimoog.js without touching the mouse and keyboard. If you have multiple MIDI inputs, minimoog.js will remember all of your mappings separately. minimoog.js supports both 7-bit and 14-bit MIDI messages. Simply right-click a control to begin mapping.
 
 Note that if you're mapping a button or switch on your controller that only sends one message at a time, you'll have to press it a few times in order for the mapping to be assigned.
 
 # Synthesis Overview
 
-The following is a brief description of each control on the 106.js. Many of these controls are also found on other analog and virtual analog synthesizers. 
+The following is a brief description of each control on the minimoog.js. Many of these controls are also found on other analog and virtual analog synthesizers.
 
 If you've never played with synthesizers before, the controls may seem overwhelming at first. A good entry point is to experiment with the filter cutoff (the `FREQ` knob in the `VCF` section) and the amplifier envelope (the `A`, `D`, `S`, and `R` knobs in the `ENV` section). The former alters the brightness of the sound, and the latter change the attack, decay, sustain, and release, respectively, shaping the volume of the sound over time as you press and then let go of the keys.
 
-For more detailed instructions, consult the [Juno 106 owner's manual](http://www.synthfool.com/docs/Roland/Juno_Series/Roland_Juno_106/Roland_Juno106_Owners_Manual.pdf).
+For more detailed instructions, consult the [Minimoog Model D user's manual](https://www.moogmusic.com/sites/default/files/Minimoog_Model_D_Users_Manual_Web.pdf).
 
 **LFO - Low Frequency Oscillator**   
  A triangle-wave oscillator that is heard indirectly, through its effects on other parameters.
- 
+
  * Rate: Controls the speed of the LFO.   
  * Delay: Controls the speed at which the LFO fades in on triggering a note.  
 
 **DCO - Digitally Controlled Oscillator**  
  Sound sources that are heard directly.  
- 
+
  * Range: Selects the keyboard octave.  
- * LFO: Selects the extent to which the LFO modulates the oscillator pitch -- i.e., adjusts the depth of vibrato. 
+ * LFO: Selects the extent to which the LFO modulates the oscillator pitch -- i.e., adjusts the depth of vibrato.
  * PWM: In manual mode, sets the width of the pulse wave, between 5% and 95%. In LFO mode,  
  selects the extent to which the LFO modulates pulse width.  
  * PULSE/SAW: Toggles pulse and sawtooth waveforms.  
@@ -76,7 +76,7 @@ For more detailed instructions, consult the [Juno 106 owner's manual](http://www
 
 **ENV - Envelope**    
  Envelope shared by both the amplifier and filter.
- 
+
 * A: Attack - how quickly the volume/filter rises to its maximum level when a note is triggered.  
 * D: Decay - after reaching its maximum level, how quickly the volume/filter falls back down to the sustain level.  
 * S: Sustain - the level at which the volume/filter maintains itself while a note is held.  
@@ -84,7 +84,7 @@ For more detailed instructions, consult the [Juno 106 owner's manual](http://www
 
 **CHORUS**    
  A chorus effect.
- 
+
 * OFF: No effect.  
 * I: Moderate chorus effect.  
 * II: Stronger chorus effect.
@@ -97,6 +97,7 @@ minimoog.js was written in Javascript using the [WebAudio](http://webaudio.githu
 
 * Knobs instead of sliders
 * 3d model
+* Install, run, and build notes
 
 # Changelog
 
