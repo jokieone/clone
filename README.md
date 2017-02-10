@@ -95,6 +95,7 @@ minimoog.js was written in Javascript using the [WebAudio](http://webaudio.githu
 
 # TO-DO
 
+* GitHub IO page
 * Knobs instead of sliders
 * 3d model
 
